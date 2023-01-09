@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ -z "$CLOUDFLARE_TUNNEL_ID" ]; then
   echo "Container failed to start, please pass CLOUDFLARE_TUNNEL_ID"
