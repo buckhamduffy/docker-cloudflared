@@ -53,4 +53,4 @@ cat > /etc/cloudflared/cert.json <<EOF
 }
 EOF
 
-cloudflared tunnel run --config /etc/cloudflared/config.yaml $@
+cloudflared tunnel --config /etc/cloudflared/config.yaml run
